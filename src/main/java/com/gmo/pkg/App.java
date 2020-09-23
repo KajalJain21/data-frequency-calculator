@@ -30,7 +30,7 @@ public class App
 		String filePath;
 		System.out.print("Enter absolute path of file: ");
 		try (Scanner scanner = new Scanner(System.in)) {
-			filePath = scanner.nextLine();
+			filePath = scanner.nextLine().trim();
 		}
 		HashMap<String, Integer> resultingMap = null;
 		
